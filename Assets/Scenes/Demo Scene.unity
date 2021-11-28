@@ -1497,11 +1497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wireframeMaterial: {fileID: 2100000, guid: 87abbe7585310b54095ccbb328ee404a, type: 2}
-  fodder:
-  - {fileID: 2432338583521205085, guid: 67f1234de34cf604cafe1bb5bd22beff, type: 3}
-  - {fileID: 1668394778668155154, guid: c9ccdab307c33b14e92ab39b253ba8ba, type: 3}
-  - {fileID: 572458652245636707, guid: 9ebe85c9dbf93c24aa60bf1c67154712, type: 3}
-  - {fileID: 2805407866749529989, guid: bc43856f71fc9df44b9d712a6641f0a7, type: 3}
+  fodder: []
 --- !u!4 &1289435175
 Transform:
   m_ObjectHideFlags: 0
