@@ -53,13 +53,16 @@ public class Pickup : MonoBehaviour
             objRig.drag = 10;
             objRig.transform.parent = holdParent;
             heldObj = pickObj;
-            pickObj.GetComponent<BoxCollider>().enabled = false;
+            pickObj.GetComponent<Collider>().enabled = false;
         }
     }
 
     void DropObject()
     {
-        heldObj.GetComponent<BoxCollider>().enabled = true;
+        heldObj.GetComponent<Collider>().enabled = true;
+
+        
+
         Rigidbody heldRig = heldObj.GetComponent<Rigidbody>();
         heldRig.useGravity = true;
         heldRig.drag = 1;
@@ -68,8 +71,12 @@ public class Pickup : MonoBehaviour
         heldObj = null;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collision collision)
     {
-        print("Trigger Exit: " + other + ": " + other.transform.position);
+        if (collision.collider)
+        {
+            heldObj.GetComponent<Rigidbody>().useGravity = false;
+            //heldObj.GetComponent<BoxCollider>().enabled = false;
+        }
     }
 }
