@@ -1,0 +1,141 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.4f1 (99ba6aa4c552) revision 10074730'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+F:/Projects/GameDev/Boolean Subquacktions/IDG Game Jam
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64138
+Successfully changed project path to: F:/Projects/GameDev/Boolean Subquacktions/IDG Game Jam
+F:/Projects/GameDev/Boolean Subquacktions/IDG Game Jam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 7840.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Projects/GameDev/Boolean Subquacktions/IDG Game Jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009293 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 308.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1278ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (869ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (309ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 2.715039 seconds.
+Required property 'name' not set (Packages/com.unity.ads/Tests/Editor/Advertisement/UnityEngine.Advertisements.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Common/Purchasing.Common.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Editor/LegacyInputHelpersEditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Purchasing/UnityEngine.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/WinRTCore/UnityEngine.Purchasing.WinRTCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacosStub/UnityEngine.Purchasing.AppleMacosStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleMacos/UnityEngine.Purchasing.AppleMacos.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityStub/UnityEngine.Purchasing.SecurityStub.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Runtime/Advertisement/UnityEngine.Advertisements.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.analytics/Editor/Analytics.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Security/UnityEngine.Purchasing.Security.asmdef)
+Required property 'name' not set (Packages/com.unity.analytics/DataPrivacy/Unity.Analytics.DataPrivacy.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/WinRTStub/UnityEngine.Purchasing.WinRTStub.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleCore/UnityEngine.Purchasing.AppleCore.asmdef)
+Required property 'name' not set (Packages/com.unity.analytics/Tests/Editor/Unity.Analytics.StandardEvents.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Tests/Editor/Monetization/UnityEngine.Monetization.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/SecurityCore/UnityEngine.Purchasing.SecurityCore.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Codeless/UnityEngine.Purchasing.Codeless.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Runtime/LegacyInputHelpers.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Stores/UnityEngine.Purchasing.Stores.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/LegacyInputHelpersEditor.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Runtime/Monetization/UnityEngine.Monetization.asmdef)
+Required property 'name' not set (Packages/com.unity.analytics/Tests/Runtime/Unity.Analytics.DataPrivacy.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/WinRT/UnityEngine.Purchasing.WinRT.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Editor/UnityEditor.Purchasing.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/AppleStub/UnityEngine.Purchasing.AppleStub.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Editor/DevX/UnityEngine.Advertisements.DevX.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Tests/Runtime/Advertisement/UnityEngine.Advertisements.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.purchasing/Runtime/Apple/UnityEngine.Purchasing.Apple.asmdef)
+Required property 'name' not set (Packages/com.unity.ads/Editor/UnityEngine.Advertisements.Editor.asmdef)
