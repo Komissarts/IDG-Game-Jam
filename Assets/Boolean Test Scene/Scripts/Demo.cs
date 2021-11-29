@@ -60,25 +60,25 @@ namespace Parabox.CSG.Demo
 
 		public void Union()
 		{
-			Reset();
+			//Reset();
 			DoBooleanOperation(BoolOp.Union);
 		}
 
 		public void SubtractionLR()
 		{
-			Reset();
+			//Reset();
 			DoBooleanOperation(BoolOp.SubtractLR);
 		}
 
 		public void SubtractionRL()
 		{
-			Reset();
+			//Reset();
 			DoBooleanOperation(BoolOp.SubtractRL);
 		}
 
 		public void Intersection()
 		{
-			Reset();
+			//Reset();
 			DoBooleanOperation(BoolOp.Intersect);
 		}
 
