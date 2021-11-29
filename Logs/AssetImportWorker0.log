@@ -15,7 +15,7 @@ M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56733
+52065
 Successfully changed project path to: M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
 [Subsystems] Discovering subsystems at path M:/unity/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,91 +63,93 @@ Initialize mono
 Mono path[0] = 'M:/unity/2021.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'M:/unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'M:/unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: M:/unity/2021.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: M:/unity/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002811 seconds.
+Registered in 0.002714 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.584 seconds
+- Completed reload, in  0.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (585ms)
+	ReloadAssembly (591ms)
 		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (454ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (288ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (114ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004883 seconds.
+Registered in 0.005397 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image M:\General Game Dev Assets - Projects - Tentalinked here\Game Jam 2\IDG-Game-Jam\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image M:\General Game Dev Assets - Projects - Tentalinked here\Game Jam 2\IDG-Game-Jam\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.203 seconds
+- Completed reload, in  1.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1204ms)
-		BeginReloadAssembly (197ms)
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (925ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (1521ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (976ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (652ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3843 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (56.6 KB). Loaded Objects now: 4273.
-Memory consumption went from 134.3 MB to 134.2 MB.
-Total: 8.446500 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.275800 ms MarkObjects: 7.736100 ms  DeleteObjects: 0.092400 ms)
+Unloading 5378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 245 unused Assets / (2.8 MB). Loaded Objects now: 5795.
+Memory consumption went from 223.6 MB to 220.7 MB.
+Total: 6.690600 ms (FindLiveObjects: 0.425600 ms CreateObjectMapping: 0.389100 ms MarkObjects: 5.240700 ms  DeleteObjects: 0.634400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,319 +164,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 331471.504342 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf10419635c239c978d58ed7781eeaa') in 0.011551 seconds 
+  Time since last request: 386898.299654 seconds.
+  path: Assets/Prefabs/Ocean.prefab
+  artifactKey: Guid(0e43fdaf8a56b234d837de7f1dfb0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ocean.prefab using Guid(0e43fdaf8a56b234d837de7f1dfb0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820bb2423bef2756e5388fde204f2335') in 0.135315 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.518981 seconds.
-  path: Assets/Scenes/Level One.unity
-  artifactKey: Guid(88849586dd2ad3347929759962b019dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level One.unity using Guid(88849586dd2ad3347929759962b019dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b630585f6aa0b40695796442249ff') in 0.001208 seconds 
+  Time since last request: 4.209877 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(a46099251b1990f40811a440417432d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(a46099251b1990f40811a440417432d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592fd922e5243ddbf88c244803f066f4') in 0.000845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.118339 seconds.
-  path: Packages/com.unity.settings-manager/Content
-  artifactKey: Guid(3d9bd4cbe22e8472781b1cde707d154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager/Content using Guid(3d9bd4cbe22e8472781b1cde707d154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bddf08d1743f66ca144541b84bcc47') in 0.000873 seconds 
+  Time since last request: 15.222515 seconds.
+  path: Assets/Models/LP BrickHouse/Scenes
+  artifactKey: Guid(a91133a2d509e7a47b68cc2b2ef3b5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Scenes using Guid(a91133a2d509e7a47b68cc2b2ef3b5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a219420f9d3b53973ff53c5c933669') in 0.000844 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.112490 seconds.
-  path: Packages/com.unity.settings-manager/Editor
-  artifactKey: Guid(c2910bfb37c064309a7230f4175d6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager/Editor using Guid(c2910bfb37c064309a7230f4175d6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3637359e99db0836db14c787ae1d86e0') in 0.001095 seconds 
+  Time since last request: 2.190075 seconds.
+  path: Assets/Models/LP BrickHouse/Models
+  artifactKey: Guid(ae23bc7f6d6fe9d47a4e2f0eebc575fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models using Guid(ae23bc7f6d6fe9d47a4e2f0eebc575fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d84385f28fded74082006093a750c1') in 0.000841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.274604 seconds.
-  path: Assets/Resources/BillingMode.json
-  artifactKey: Guid(cfb3f554a08f85d4291bf600d874a78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BillingMode.json using Guid(cfb3f554a08f85d4291bf600d874a78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361b1cadb1b40b4ba5a483a239919a9d') in 0.035047 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009054 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 184.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.169 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5169ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (4911ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (764ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (1429ms)
-			SetupLoadedEditorAssemblies (2360ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (184ms)
-				BeforeProcessingInitializeOnLoad (399ms)
-				ProcessInitializeOnLoadAttributes (1606ms)
-				ProcessInitializeOnLoadMethodAttributes (149ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5552 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 132 unused Assets / (6.1 MB). Loaded Objects now: 5913.
-Memory consumption went from 209.9 MB to 203.8 MB.
-Total: 8.291700 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.389200 ms MarkObjects: 5.422800 ms  DeleteObjects: 2.048200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 305.831591 seconds.
-  path: Packages/com.unity.render-pipelines.universal
-  artifactKey: Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal using Guid(87f3e00faee74b02e6227b1c727beb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bfffdfd469b776bd5a0126fab43a6a') in 0.007904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.538971 seconds.
-  path: Packages/com.unity.render-pipelines.universal/package.json
-  artifactKey: Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/package.json using Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3cb528bd253fe8b76176d975531d52') in 0.007257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.302941 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders
-  artifactKey: Guid(248877dd7078443d6b51abf21ee7d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders using Guid(248877dd7078443d6b51abf21ee7d52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0525165c845f015f44086f8d638b64') in 0.001106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048248 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl
-  artifactKey: Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl using Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a91e97514e65efbf2a720fbd595ed2e') in 0.014066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl
-  artifactKey: Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl using Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c92950fca5e785a62f5c70c59cbd9b1') in 0.001310 seconds 
+  Time since last request: 0.016700 seconds.
+  path: Assets/Models/LP BrickHouse/Models/Chair.dae
+  artifactKey: Guid(1c582774c98a4e049b5dcca19e619f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/Chair.dae using Guid(1c582774c98a4e049b5dcca19e619f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bbdc5150d7dcb3d2386522dd099737') in 0.114684 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl
-  artifactKey: Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl using Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fef429df1309e0f5c899d1ab202ae0a') in 0.001380 seconds 
+  path: Assets/Models/LP BrickHouse/Models/Lamppost.dae
+  artifactKey: Guid(86dcc85c45c634a4f9fe429a83f1e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/Lamppost.dae using Guid(86dcc85c45c634a4f9fe429a83f1e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab070d7bab63d59812c696fee02d742e') in 0.018269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl
-  artifactKey: Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl using Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6f118f49696ac8ee68b336bdc7844d') in 0.001844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl
-  artifactKey: Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl using Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188fef0559b7c824e63ca0b0baa5bd39') in 0.001697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl
-  artifactKey: Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl using Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb7ad29c7177402719a04be308376b3') in 0.001336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl
-  artifactKey: Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl using Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c737119f9dc4977f9c18600edadb1a') in 0.001236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl
-  artifactKey: Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl using Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eabc03592af281aff1de57b33a159cb') in 0.001687 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/LP BrickHouse/Models/RiverLand.dae
+  artifactKey: Guid(15961ec6d81beb84fb7cfd8e047a80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/RiverLand.dae using Guid(15961ec6d81beb84fb7cfd8e047a80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6223910bc1f6673f997c8c101953d6e') in 0.016949 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl
-  artifactKey: Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl using Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af336b110aee9c47412df401af214a5c') in 0.001442 seconds 
+  path: Assets/Models/LP BrickHouse/Models/RiverWallStairs.dae
+  artifactKey: Guid(8ba69f714428f5748b29c01882b6643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/RiverWallStairs.dae using Guid(8ba69f714428f5748b29c01882b6643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a60d6d2a6238fda4b0f9396f63a18fe') in 0.018875 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl
-  artifactKey: Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl using Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cff5027e644f0072f0dc3cf7da189ce') in 0.001252 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/LP BrickHouse/Models/RiverWallCorner.dae
+  artifactKey: Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/RiverWallCorner.dae using Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ccef1676ca4119c02542eece6400f4') in 0.016166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/LP BrickHouse/Models/House-1-4.dae
+  artifactKey: Guid(9e611b8be7b5ed64596b5b1b9c0040b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/House-1-4.dae using Guid(9e611b8be7b5ed64596b5b1b9c0040b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e04768e024828e37a4a27c7d7b1e0e') in 0.098988 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl
-  artifactKey: Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl using Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9ddbc20ce8482fbcde83f3583b7b4') in 0.001466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl
-  artifactKey: Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl using Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e69f4108901b7269d06ea46971a279') in 0.001433 seconds 
+  path: Assets/Models/LP BrickHouse/Models/Table.dae
+  artifactKey: Guid(4db74a5e9a11a27428b94f3a6a9dd34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/Table.dae using Guid(4db74a5e9a11a27428b94f3a6a9dd34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7f94fa25cf07d776424f8a85a6f7f9') in 0.017721 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl
-  artifactKey: Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl using Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b3af156870c44cb623b8dbdb82714') in 0.001171 seconds 
+  path: Assets/Models/LP BrickHouse/Models/Foliage.dae
+  artifactKey: Guid(437a88a2807f70243b041aa83858dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/Foliage.dae using Guid(437a88a2807f70243b041aa83858dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135a83a687fb71a7f3e76994c6fa337d') in 0.019960 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.503236 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl
-  artifactKey: Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl using Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6201d28f24ea6822fe4175a5512c4981') in 0.001280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 410.176505 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/BRDF.hlsl
-  artifactKey: Guid(e325eaafb90d419598a94581ba3335a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/BRDF.hlsl using Guid(e325eaafb90d419598a94581ba3335a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d2159fe45ad6f7f82eb90679b63e4d') in 0.002120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl
-  artifactKey: Guid(53686bf58189656459fca4c6ab04ebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl using Guid(53686bf58189656459fca4c6ab04ebe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370a5bbe4dbe8e6a76a51694274eb864') in 0.001419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef
-  artifactKey: Guid(ab67fb10353d84448ac887a7367cbda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef using Guid(ab67fb10353d84448ac887a7367cbda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13000d6be06748030e8f5a4205c6d41c') in 0.003933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unlit.hlsl
-  artifactKey: Guid(823e07282e194f119e8032f1555676ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unlit.hlsl using Guid(823e07282e194f119e8032f1555676ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a5c3692499f709ae0869f6b48c4f46') in 0.001529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/UnityTypes.hlsl
-  artifactKey: Guid(8d0dd75f99f9243d584a08489c8498b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/UnityTypes.hlsl using Guid(8d0dd75f99f9243d584a08489c8498b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b7fdfc53063ba751cb162b45bbe085') in 0.001321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Clustering.hlsl
-  artifactKey: Guid(5c52f3d26791c415b9e887442bfc817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Clustering.hlsl using Guid(5c52f3d26791c415b9e887442bfc817c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24094bac352c72612b596e4355e87da') in 0.001096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/SurfaceInput.hlsl
-  artifactKey: Guid(546b9685ee7cc0941afd734baa08db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/SurfaceInput.hlsl using Guid(546b9685ee7cc0941afd734baa08db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7947454f0ed9833bffa5e6409ccf9743') in 0.001378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Shadows.hlsl
-  artifactKey: Guid(5cb845b7decdb4db6a7fcc676b127b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Shadows.hlsl using Guid(5cb845b7decdb4db6a7fcc676b127b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0047374e64ccbfabcb337a70e7385bf8') in 0.001522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/DeclareNormalsTexture.hlsl
-  artifactKey: Guid(92a8a2733f9d18a44aad998449c6ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/DeclareNormalsTexture.hlsl using Guid(92a8a2733f9d18a44aad998449c6ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf07d20a46613d34ec086a5a5cdd951') in 0.001600 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/LP BrickHouse/Models/RiverBridge.dae
+  artifactKey: Guid(268f4f0d65f1549488a4076f41b4e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/RiverBridge.dae using Guid(268f4f0d65f1549488a4076f41b4e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c17ca4a9f6c9f8a0f841fc8508a4f3') in 0.015376 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/UnityInput.hlsl
-  artifactKey: Guid(6564342aa7c6ca44a86b97323a311d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/UnityInput.hlsl using Guid(6564342aa7c6ca44a86b97323a311d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2daefd2cb6dadc63dd6a2a605e063d') in 0.001524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Input.hlsl
-  artifactKey: Guid(b2555155ead696140913bef1ec93adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Input.hlsl using Guid(b2555155ead696140913bef1ec93adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191978b2035059a4a927471c4334833f') in 0.001310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/SSAO.hlsl
-  artifactKey: Guid(930a5f40803cb414b84db9a1889f890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/SSAO.hlsl using Guid(930a5f40803cb414b84db9a1889f890c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9051fb8b8c2223359d248f9e99e0ed') in 0.001431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderVariablesFunctions.hlsl
-  artifactKey: Guid(a8db2eae5ac4548a683f17e8c528c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderVariablesFunctions.hlsl using Guid(a8db2eae5ac4548a683f17e8c528c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8e6d16a431960aa22ba4b1da113dad') in 0.001409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/VisualEffectVertex.hlsl
-  artifactKey: Guid(41a9ae1971520f84c89225b0e84299ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/VisualEffectVertex.hlsl using Guid(41a9ae1971520f84c89225b0e84299ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac0e0f6ac01819fa81fe6e540ede220') in 0.001373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Particles.hlsl
-  artifactKey: Guid(58997c4bd657ad848919e91029ee01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Particles.hlsl using Guid(58997c4bd657ad848919e91029ee01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e823deaad4ec243e1810c4fecab6f99e') in 0.001291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderGraphFunctions.hlsl
-  artifactKey: Guid(9adc879d74aec4400bbdce89ff664a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderGraphFunctions.hlsl using Guid(9adc879d74aec4400bbdce89ff664a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001a2dd99bf2523de32ccc818902dc7a') in 0.001591 seconds 
+  path: Assets/Models/LP BrickHouse/Models/House-1-2.dae
+  artifactKey: Guid(3c8ca546276c2614285d0e021f3266a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/House-1-2.dae using Guid(3c8ca546276c2614285d0e021f3266a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd15b42f48c843c688e87190d505bddc') in 0.070657 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/ParticlesInstancing.hlsl
-  artifactKey: Guid(c70398529f54bc44ca6a3ed0211e039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/ParticlesInstancing.hlsl using Guid(c70398529f54bc44ca6a3ed0211e039f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f703b3a42de3116df430b4bb4a5a650') in 0.001372 seconds 
+  path: Assets/Models/LP BrickHouse/Models/House-1-3.dae
+  artifactKey: Guid(d67f77292d7829d4a848cefa1f0f4b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/House-1-3.dae using Guid(d67f77292d7829d4a848cefa1f0f4b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96e72d846d44795ac71391bdd0d8652') in 0.080055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/UniversalMetaPass.hlsl
-  artifactKey: Guid(573542356fb54fe4583ff78639189cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/UniversalMetaPass.hlsl using Guid(573542356fb54fe4583ff78639189cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37373c2908f248f798aa489c48aeaf0') in 0.001570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.643783 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.hlsl
-  artifactKey: Guid(3f1f7ec9e0c852a48826fe085f257d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.hlsl using Guid(3f1f7ec9e0c852a48826fe085f257d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b4f14612b7c6232b558e485330d956') in 0.001530 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/LP BrickHouse/Models/RiverWallOpen.dae
+  artifactKey: Guid(f5b81f6bf93699544bd95eba1678aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP BrickHouse/Models/RiverWallOpen.dae using Guid(f5b81f6bf93699544bd95eba1678aef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b79421e118e3503080c3a6b9456e53a') in 0.014270 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
