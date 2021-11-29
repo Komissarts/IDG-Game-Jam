@@ -15,7 +15,7 @@ M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-52065
+56733
 Successfully changed project path to: M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ M:/General Game Dev Assets - Projects - Tentalinked here/Game Jam 2/IDG-Game-Jam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 168.27 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 139.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
 [Subsystems] Discovering subsystems at path M:/unity/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'M:/unity/2021.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'M:/unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'M:/unity/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: M:/unity/2021.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: M:/unity/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002658 seconds.
+Registered in 0.002716 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 114.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 121.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.584 seconds
+- Completed reload, in  0.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (584ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadAttributes (136ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,53 +103,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005217 seconds.
+Registered in 0.006213 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image M:\General Game Dev Assets - Projects - Tentalinked here\Game Jam 2\IDG-Game-Jam\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image M:\General Game Dev Assets - Projects - Tentalinked here\Game Jam 2\IDG-Game-Jam\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.751 seconds
+- Completed reload, in  1.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1752ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1571ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1513ms)
+		EndReloadAssembly (1341ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1006ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (830ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (690ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 245 unused Assets / (2.8 MB). Loaded Objects now: 5795.
-Memory consumption went from 223.8 MB to 220.9 MB.
-Total: 7.628700 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.577000 ms MarkObjects: 5.798700 ms  DeleteObjects: 0.666400 ms)
+Unloading 5571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 6014.
+Memory consumption went from 229.3 MB to 228.7 MB.
+Total: 9.091000 ms (FindLiveObjects: 0.527500 ms CreateObjectMapping: 0.480400 ms MarkObjects: 7.670600 ms  DeleteObjects: 0.410800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,64 +162,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 389820.684515 seconds.
-  path: Assets/Models/LP roads/Demo
-  artifactKey: Guid(2469141f37ffafb4784fc96766e97a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo using Guid(2469141f37ffafb4784fc96766e97a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84242b41036c86a1d5e7ee6a8fcc66f') in 0.007921 seconds 
+  Time since last request: 339580.644349 seconds.
+  path: Assets/Models/LP Desert/FBX Files/Flat Colors/Flat_Palm_tree_01.fbx
+  artifactKey: Guid(200c7bff23e82db4c8efd0f74195fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/LP Desert/FBX Files/Flat Colors/Flat_Palm_tree_01.fbx using Guid(200c7bff23e82db4c8efd0f74195fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee25016e6f9118e2fcd9ebd80813eb08') in 0.189593 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.182980 seconds.
-  path: Assets/Models/LP roads/Demo/Materials
-  artifactKey: Guid(a701ec118f22d304eb990887be6b1a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Materials using Guid(a701ec118f22d304eb990887be6b1a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b34cad1a32d0a5248f27bc0f0369cd') in 0.000855 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/LP Wind/Assets/Models/LPW_Tree_B1_9m_02.fbx
+  artifactKey: Guid(4acbe20131f3a684c914f20a1194b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LP Wind/Assets/Models/LPW_Tree_B1_9m_02.fbx using Guid(4acbe20131f3a684c914f20a1194b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a1d8ccde00f5d9dd2697525011f7c7') in 0.018154 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.676907 seconds.
-  path: Assets/Models/LP roads/Demo/Textures
-  artifactKey: Guid(4cab1d751572d5f43bfeafe7ab041dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Textures using Guid(4cab1d751572d5f43bfeafe7ab041dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67182bcd3d93ce88e2d80575b899ad7') in 0.000822 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/LP Wind/_Prefabs/LPW_Tree_B1_9m_01.prefab
+  artifactKey: Guid(9787e9e0fbeb87a45beb0d9d4e03edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LP Wind/_Prefabs/LPW_Tree_B1_9m_01.prefab using Guid(9787e9e0fbeb87a45beb0d9d4e03edca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07613fcf8c15b11e0e1204bf8502b51') in 0.112546 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.023533 seconds.
-  path: Assets/Models/LP roads/Demo/Textures/Colorscheme World.png
-  artifactKey: Guid(c975dc85e64790c40b2561cb2c3ba471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Textures/Colorscheme World.png using Guid(c975dc85e64790c40b2561cb2c3ba471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc55960030882e308647a957b5219f5d') in 0.062325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.417709 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape
-  artifactKey: Guid(60c4ffeb0e9aa324d9000a9f8249864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape using Guid(60c4ffeb0e9aa324d9000a9f8249864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4330936d68642639e277a0ea6f0dc07') in 0.001112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010554 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape/Houses.001.dae
-  artifactKey: Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape/Houses.001.dae using Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aab03321ccc7e65bbfaf1e6264fee52') in 0.094426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape/Houses.011.dae
-  artifactKey: Guid(f24e9cf354f004442b97cffbb3bbd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape/Houses.011.dae using Guid(f24e9cf354f004442b97cffbb3bbd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555dd139a584f8a86463f46e90c45328') in 0.014052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape/Houses.004.dae
-  artifactKey: Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape/Houses.004.dae using Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab180b2761b425a157ecc4d2992b0ae') in 0.017636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape/Houses.009.dae
-  artifactKey: Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape/Houses.009.dae using Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc49f2b1e8fcf31b5040e1b4f3c43b9d') in 0.016739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/LP roads/Demo/Landscape/Houses.010.dae
-  artifactKey: Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LP roads/Demo/Landscape/Houses.010.dae using Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d4b738bfe0428d22063531e46ad188') in 0.017785 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1856ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1595ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (822ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (490ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5488 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6026.
+Memory consumption went from 226.2 MB to 225.6 MB.
+Total: 14.555500 ms (FindLiveObjects: 4.450600 ms CreateObjectMapping: 0.763300 ms MarkObjects: 8.988900 ms  DeleteObjects: 0.351400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
